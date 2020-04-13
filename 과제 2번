@@ -1,1 +1,20 @@
+#include<iostream>
+#include <string>
+using namespace std;
+int main()
+{
+	float a;//나누기를 했을때 소숫점 첫째자리까지 나오게 하기 위해서
+	float b;
+
+	cout << "First number>>";
+	cin >> a;
+	cout << "Second number>>";
+	cin >> b;
+	cout << "============계산 결과=============" << '\n';
+
+	cout << a << "+" << b << '=' << a + b << '\n';
+	cout << a << "-" << b << '=' << a - b << '\n';
+	cout << a << "*" << b << '=' << a * b << '\n';
+	cout << a << "/" << b << '=' << a / b << '\n';
+}
 
